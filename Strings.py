@@ -51,7 +51,7 @@ print(favorite_language.strip()) # remove the whitespace at the end of the strin
 favorite_language = 'python'
 message = 'python programming'
 
-print(message.removeprefix('python'))  # remove the prefix 'python' if it appears at the start
+print(message.removeprefix('s'))  # remove the prefix 'python' if it appears at the start
 print(message.removeprefix('py'))      # remove a shorter prefix at the start
 print(message.removeprefix('Java'))    # no change if the prefix is not present
 
